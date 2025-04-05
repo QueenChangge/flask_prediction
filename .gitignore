@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node.js
+node_modules/
+dist/
+
+# Build/generated files
+#output.css
+#input.css
+
+# Environment/configs
+.env
+*.env
+
+# System/IDE
+.vscode/
