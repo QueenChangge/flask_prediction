@@ -17,3 +17,8 @@ dist/
 
 # System/IDE
 .vscode/
+
+#personal file
+02.ipynb
+images/
+datasets/

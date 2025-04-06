@@ -1,30 +1,32 @@
 # Flask Model Prediction
 
-Flask Model Prediction app is one of my personal project to integrate web development skill combine with machine learning skill.
+Flask Model Prediction app is one of my personal project to integrate web development skill combine with machine learning skill. In this project, there is a form that you can fill the input and then getting prediction response.
 
-In this project, there is a form that you can fill the input and then getting prediction response
+# About This Project
+This project is about California Housing Price Prediction. There are 9 features we need to fill in the form to get prediction. The prediction is the price of house in the given location.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
-pip install foobar
+#Install Flask and requirements
+pip install Flask
+pip install requirements.txt
+
+#Install Tailwind and Flowbite
+npm install tailwindcss @tailwindcss/cli --save-dev
+npm install flowbite --save
 ```
 
 ## Usage
 
 ```python
-import foobar
+#Run Flask
+flask app.py
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+#Run CSS
+npx @tailwindcss/cli -i ./static/src/input.css -o ./static/dist/output.css --watch
 ```
 
 ## Contributing
