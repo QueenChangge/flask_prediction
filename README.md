@@ -4,6 +4,8 @@ Flask Model Prediction app is one of my personal project to integrate web develo
 
 # About This Project
 This project is about California Housing Price Prediction. There are 9 features we need to fill in the form to get prediction. The prediction is the price of house in the given location.
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## Installation
 
